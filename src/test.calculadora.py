@@ -35,8 +35,8 @@ class TestCalcular(unittest.TestCase):
         self.assertEqual(valor_esperado, valor_actual)
     
     def test_raiz(self):
-        valor_esperado = 3
-        valor_actual = calcular(9, any, 'r')
+        valor_esperado = 2
+        valor_actual = calcular(8, 3, 'r')
         self.assertEqual(valor_esperado, valor_actual)
 
     def test_operacion_invalida(self):

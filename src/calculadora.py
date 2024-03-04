@@ -24,7 +24,7 @@ def calcular(numero1, numero2, operacion):
             respuesta = numero1 % numero2
         case 'r':
             #Operación raiz
-            respuesta = math.sqrt(numero1)
+            respuesta = numero1 ** (1/numero2)
         case _:
             raise ValueError("Operación inválida.")
 
